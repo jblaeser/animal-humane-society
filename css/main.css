@@ -140,6 +140,7 @@ body {
     font-family: 'tradegothicext', Arial, Helvetica, sans-serif;
     color: #fff;
     font-size: 1.25em;
+    border-radius: 0 10px 10px 0;
 }
 
 .sidenav ul {
@@ -171,6 +172,7 @@ body {
     margin: 6em 2em;
     padding: .25em;
     border: .25em solid #fff;
+    border-radius: 10px;
 }
 
 .donate:hover {
@@ -223,6 +225,7 @@ body {
 .animals {
     background: #c2e0ee;
     border: .25em solid #de791c;
+    border-radius: 10px;
     display: flex;
     align-items: center;
     margin: 0 1.5em 1.5em 1.5em;
@@ -251,6 +254,7 @@ body {
     font-size: 1.25em;
     text-align: center;
     border: .25em solid #00668e;
+    border-radius: 10px;
     padding: .5em;
     margin: 1em 1.75em;
     line-height: 1;
@@ -266,6 +270,7 @@ body {
 .animals img {
     flex-basis: 45%;
     border: .25em solid #00668e;
+    border-radius: 10px;
 }
 
 .animalinfo {
