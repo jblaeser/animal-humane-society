@@ -1,3 +1,22 @@
+@font-face {
+    font-family: 'tradegothicstd';
+    src: url('../fonts/trade-gothic-lt-std.woff2') format('woff2'),
+        url('../fonts/trade-gothic-lt-std.woff') format('woff'),
+        url('../fonts/trade-gothic-lt-std.ttf') format('ttf'); 
+}
+
+@font-face {
+    font-family: 'tradegothicext';
+    src: url('../fonts/trade-gothic-lt-std-boldext.woff2') format('woff2'),
+        url('../fonts/trade-gothic-lt-std-boldext.woff') format('woff'),
+        url('../fonts/trade-gothic-lt-std-boldext.ttf') format('ttf'); 
+}
+
+
+
+
+
+
 /*! HTML5 Boilerplate v6.1.0 | MIT License | https://html5boilerplate.com/ */
 
 /*
@@ -96,6 +115,23 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+
+body {
+    font-family: 'tradegothicstd';
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
