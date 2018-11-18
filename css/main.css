@@ -178,6 +178,10 @@ body {
     border: .25em solid #de791c;
 }
 
+.donate a:hover {
+    color: white;
+}
+
 .socialmedia {
     margin: 2em 0;
     text-align: center;
@@ -199,15 +203,62 @@ body {
 
 .friends {
     flex: 75%;
+    color: #00668e;
 }
+
 
 .animals {
     background: #c2e0ee;
     border: .25em solid #de791c;
     display: flex;
     align-items: center;
+    margin: 0 1.5em 1.5em 1.5em;
+    padding: 1em;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
 
+.animals h2 {
+    color: #de791c;
+    font-family: 'tradegothicext', Arial, Helvetica, sans-serif;
+    text-align: center;
+    flex-basis: 100%;
+    font-size: 2.5em;
+    margin: 0 0 .25em 0;
+    text-transform: uppercase;
+}
+
+.animals h3 {
+    font-family: 'tradegothicext', Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+.animals h4{
+    font-family: 'tradegothicex' Arial, Helvetica, sans-serif;
+    font-size: 1.25em;
+    text-align: center;
+    border: .25em solid #00668e;
+    padding: .5em;
+    margin: 1em 1.75em;
+    line-height: 1;
+    cursor: pointer;
+}
+
+.animals h4:hover {
+    border: .25em solid #de791c;
+    background: #de791c;
+    color: #fff;
+}
+
+.animals img {
+    flex-basis: 45%;
+    border: .25em solid #00668e;
+}
+
+.animalinfo {
+    flex-basis: 45%;
+    line-height: 1.4em;
+}
 
 
 
