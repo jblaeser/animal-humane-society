@@ -117,12 +117,25 @@ textarea {
    ========================================================================== */
 
 body {
-    font-family: 'tradegothicstd';
+    font-family: 'tradegothicstd', Arial, Helvetica, sans-serif;
 }
 
 
+nav {
+    background: #00668e;
+}
 
+.sidenav a {
+    color: #fff;
+    font-family: 'tradegothicext', Arial, Helvetica, sans-serif;
+}
 
+.animals {
+    background: #c2e0ee;
+    border: .25em solid #de791c;
+    display: flex;
+    align-items: center;
+}
 
 
 
