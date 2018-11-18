@@ -297,6 +297,10 @@ footer {
     font-size: .8em;
 }
 
+.location-on .locationlink {
+    color: #de791c;
+}
+
 .locationinfo h3 {
     margin: 0;
     color: #de791c;
